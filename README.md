@@ -1,5 +1,8 @@
 # LeakForums Code Block Expander
 
+### Images
+![Example Image](https://share.md5.xyz/aHb1456607831viH.png)
+
 ### Installation
 
 **Chrome**
