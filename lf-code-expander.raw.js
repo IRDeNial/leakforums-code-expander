@@ -1,4 +1,4 @@
-(function () {    
+(function () {
     var i, expanderDiv;
 
     function isOverflowed(element) {
@@ -10,7 +10,7 @@
             expanderDiv = document.createElement('div');
             expanderDiv.className = "codeexpander-" + i;
             expanderDiv.setAttribute('style', 'text-align:center;width:100%;display:block;position:absolute;bottom:0;left: 0;background-image: linear-gradient(to bottom, #252525, #252525);padding: 0;margin: 0;cursor: pointer;');
-            expanderDiv.innerHTML = '<p style="color: #38b8d4;font-weight: bold;font-size: 18px;">Click To Expand</p>';
+            expanderDiv.innerHTML = '<p style="color: '+window.bg_color+';font-weight: bold;font-size: 18px;padding:5px 0;">Click To Expand</p>';
 
             document.querySelectorAll('div.codeblock')[i].appendChild(expanderDiv);
             document.querySelectorAll('div.codeblock')[i].style.position = 'relative';
