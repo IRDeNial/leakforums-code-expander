@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           LeakForums Code Expander
-// @version        1.0.0
+// @version        1.1.0
 // @description    Allow expanding of code blocks
 // @downloadURL    https://gitlab.com/notmike101/leakforums-code-expander/raw/master/lf-code-expander.user.js
 // @updateURL      https://gitlab.com/notmike101/leakforums-code-expander/raw/master/lf-code-expander.meta.js
